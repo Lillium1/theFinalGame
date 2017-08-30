@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Asap+Condensed:400,500,700");
+/*
+@mixin ejemplo(){
+	color: $color_text_p;
+	text-align: center;
+	line-heigth: 30px;
+}
+*/
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: silver; }
+
+canvas {
+  background: #f7b617;
+  display: block;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
