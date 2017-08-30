@@ -1,11 +1,11 @@
 var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
-    var ballRadius = 10;
+    var ballRadius = 20;
     var x = canvas.width/2;
     var y = canvas.height-30;
     var dx = 2;
     var dy = -2;
-    var paddleHeight = 50;
+    var paddleHeight = 25;
     var paddleWidth = 100;
     var paddleX = (canvas.width-paddleWidth)/2;
     var rightPressed = false;
