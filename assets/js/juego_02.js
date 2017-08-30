@@ -123,7 +123,7 @@ var canvas = document.getElementById("myCanvas");
         ctx.font = "20px Roboto";
         ctx.fillStyle = "#000";
         var puntaje = new Image();
-        puntaje.src = "assets/img/puntaje.png";
+        puntaje.src = "assets/img/PUNTAJE.png";
         ctx.drawImage(puntaje,30,40)
         ctx.fillText(score, 200, 60);
     }
@@ -131,7 +131,7 @@ var canvas = document.getElementById("myCanvas");
         ctx.font = "20px Roboto";
         ctx.fillStyle = "#000";
         var vidas = new Image();
-        vidas.src = "assets/img/vidas.png";
+        vidas.src = "assets/img/VIDAS.png";
         ctx.drawImage(vidas, canvas.width-200, 40)
         ctx.fillText(lives, canvas.width-70, 58);
     }
