@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Asap+Condensed:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Chelsea+Market");
 /*
 @mixin ejemplo(){
 	color: $color_text_p;
@@ -6,6 +7,63 @@
 	line-heigth: 30px;
 }
 */
+.button-3d {
+  color: #ecf0f1;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px #CA991E;
+  background: #f7b617;
+  text-align: center;
+  padding: 10px 70px 10px;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 20px;
+  -webkit-box-shadow: 0px 6px 0px #CA991E;
+  -moz-box-shadow: 0px 6px 0px #CA991E;
+  box-shadow: 0px 6px 0px #CA991E; }
+
+.button-3d:active {
+  -webkit-box-shadow: 0px 2px 0px #d35400;
+  -moz-box-shadow: 0px 2px 0px #d35400;
+  box-shadow: 0px 2px 0px #d35400;
+  position: relative;
+  top: 4px; }
+
+.button-3d:hover {
+  background-color: #F0C966; }
+
+p {
+  font-size: 40px;
+  margin-bottom: 30px; }
+
+.modal-close {
+  font-size: 20px;
+  font-family: 'Chelsea Market', cursive;
+  color: green; }
+
+.modal-content p {
+  font-size: 20px;
+  font-family: 'Chelsea Market', cursive; }
+
+.container#particles-js {
+  text-align: center;
+  background: linear-gradient(270deg, #B1FFE1, #88F1F0, #80DBFF, #D5A0FF, #FF849A);
+  background-size: 1000% 1000%;
+  -webkit-animation: gradient-cycle 60s ease infinite;
+  -moz-animation: gradient-cycle 60s ease infinite;
+  animation: gradient-cycle 60s ease infinite; }
+
+h1 {
+  margin-top: 200px;
+  font-size: 40px;
+  font-family: fira-sans; }
+
+@keyframes gradient-cycle {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 * {
   padding: 0;
   margin: 0; }
