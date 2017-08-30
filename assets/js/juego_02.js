@@ -22,7 +22,7 @@ var canvas = document.getElementById("myCanvas");
     var lives = 3;
     var bricks = [];
     var img = new Image();
-    img.src = "assets/img/lab2.png";
+    img.src = "assets/img/ladrillo.png";
     var hex;
     var color = chColor(); 
 
@@ -78,10 +78,13 @@ var canvas = document.getElementById("myCanvas");
                         color = chColor();
                         score++;
                         if(score == brickRowCount*brickColumnCount) {
+
                             sweetAlert(
                                 'Ganaste!'
                                 );
                             //document.location.reload();//
+
+
                         }
                     }
                 }
@@ -161,10 +164,12 @@ var canvas = document.getElementById("myCanvas");
             else {
                 lives--;
                 if(!lives) {
+
                     sweetAlert(
                         'Perdiste!'
                         );
                     //document.location.reload();//
+
                 }
                 else {
                     x = canvas.width/2;
