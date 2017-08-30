@@ -121,13 +121,19 @@ var canvas = document.getElementById("myCanvas");
     }
     function drawScore() {
         ctx.font = "20px Roboto";
-        ctx.fillStyle = "#fff";
-        ctx.fillText("Puntaje: "+score, 30, 40);
+        ctx.fillStyle = "#000";
+        var puntaje = new Image();
+        puntaje.src = "assets/img/puntaje.png";
+        ctx.drawImage(puntaje,30,40)
+        ctx.fillText(score, 200, 60);
     }
     function drawLives() {
         ctx.font = "20px Roboto";
-        ctx.fillStyle = "#fff";
-        ctx.fillText("Vidas: "+lives, canvas.width-105, 40);
+        ctx.fillStyle = "#000";
+        var vidas = new Image();
+        vidas.src = "assets/img/vidas.png";
+        ctx.drawImage(vidas, canvas.width-200, 40)
+        ctx.fillText(lives, canvas.width-70, 58);
     }
     function newelement() {
         var img = new Image();
