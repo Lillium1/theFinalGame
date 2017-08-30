@@ -35,7 +35,7 @@ p{
     
         font-size: 20px;
         font-family: 'Chelsea Market', cursive;
-        color: green;
+        
 }
 
 
@@ -44,6 +44,10 @@ p{
         font-size: 20px;
         font-family: 'Chelsea Market', cursive;
     }
+}
+
+.modal{
+    background-color: #F0C966;
 }
 
 
@@ -59,12 +63,6 @@ animation: gradient-cycle 60s ease infinite;
   
 
 }
-
-  h1 {
-    margin-top: 200px;
-    font-size: 40px;
-    font-family: fira-sans;
-  }
 
 @keyframes gradient-cycle { 
     0%{background-position:0% 50%}
