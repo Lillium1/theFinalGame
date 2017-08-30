@@ -22,7 +22,7 @@ var canvas = document.getElementById("myCanvas");
     var lives = 3;
     var bricks = [];
     var img = new Image();
-    img.src = "assets/img/lab2.png";
+    img.src = "assets/img/ladrillo.png";
     var hex;
     var color = chColor(); 
 
