@@ -1,0 +1,41 @@
+.button-3d {
+ color:#ecf0f1;
+ text-decoration:none;
+ border-radius:5px;
+ border:solid 1px #CA991E;
+ background:#f7b617;
+ text-align:center;
+ padding:10px 70px 10px;
+ font-family: 'Chelsea Market', cursive;
+ font-size: 20px;
+ 
+ -webkit-box-shadow: 0px 6px 0px #CA991E;
+ -moz-box-shadow: 0px 6px 0px #CA991E;
+ box-shadow: 0px 6px 0px #CA991E;
+}
+.button-3d:active{
+ -webkit-box-shadow: 0px 2px 0px #d35400;
+ -moz-box-shadow: 0px 2px 0px #d35400;
+ box-shadow: 0px 2px 0px #d35400;
+ position:relative;
+ top:4px;
+}
+.button-3d:hover{
+background-color: #F0C966;
+}
+p{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.modal-close{
+    i{
+        font-size: 35px;
+        color: green;
+    }
+}
+.modal-content{
+    p{
+        font-size: 20px;
+        font-family: 'Chelsea Market', cursive;
+    }
+}
