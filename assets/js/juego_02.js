@@ -84,7 +84,6 @@ var canvas = document.getElementById("myCanvas");
                                 );
                             //document.location.reload();//
 
-
                         }
                     }
                 }
