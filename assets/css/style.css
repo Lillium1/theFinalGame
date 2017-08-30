@@ -18,4 +18,20 @@ canvas {
   display: block;
   margin: 0 auto; }
 
+/* buzz canvas 
+canvas:hover {    
+    -webkit-animation: shake 0.1s ease-in-out 0.1s infinite alternate;
+}
+
+@-webkit-keyframes shake {
+ from {
+    -webkit-transform: rotate(0.5deg);
+ }
+ to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-0.5deg);
+ }
+
+}*/
+
 /*# sourceMappingURL=style.css.map */
