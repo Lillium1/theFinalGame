@@ -78,6 +78,7 @@ var canvas = document.getElementById("myCanvas");
                         color = chColor();
                         score++;
                         if(score == brickRowCount*brickColumnCount) {
+                            alert("YOU WIN, CONGRATS!");
                             document.location.reload();
                         }
                     }
@@ -158,6 +159,7 @@ var canvas = document.getElementById("myCanvas");
             else {
                 lives--;
                 if(!lives) {
+                    alert("GAME OVER");
                     document.location.reload();
                 }
                 else {
